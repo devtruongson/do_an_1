@@ -241,6 +241,18 @@
       "PackagePath": "staticwebassets\\assets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\worksapce\\c#\\webASP\\wwwroot\\assets\\styles\\css\\base.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\css\\base.css"
+    },
+    {
+      "Id": "D:\\worksapce\\c#\\webASP\\wwwroot\\assets\\styles\\css\\base.css.map",
+      "PackagePath": "staticwebassets\\assets\\styles\\css\\base.css.map"
+    },
+    {
+      "Id": "D:\\worksapce\\c#\\webASP\\wwwroot\\assets\\styles\\css\\base.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\css\\base.scss"
+    },
+    {
       "Id": "D:\\worksapce\\c#\\webASP\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

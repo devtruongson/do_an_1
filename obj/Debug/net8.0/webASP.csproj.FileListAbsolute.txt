@@ -29,3 +29,4 @@ D:\worksapce\c#\webASP\obj\Debug\net8.0\webASP.pdb
 D:\worksapce\c#\webASP\obj\Debug\net8.0\webASP.genruntimeconfig.cache
 D:\worksapce\c#\webASP\obj\Debug\net8.0\ref\webASP.dll
 D:\worksapce\c#\webASP\obj\Debug\net8.0\scopedcss\Views\Shared\Components\header\Header.cshtml.rz.scp.css
+D:\worksapce\c#\webASP\obj\Debug\net8.0\webASP.sourcelink.json

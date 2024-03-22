@@ -1,11 +1,13 @@
 header[b-2wa88qn2hf] {
-    padding   : 10px 0;
-    position  : fixed;
-    background: #fff;
-    width     : 100%;
-    left      : 0;
-    right     : 0;
-    top       : 0;
+    height     : 60px;
+    display    : flex;
+    align-items: center;
+    position   : fixed;
+    background : #fff;
+    width      : 100%;
+    left       : 0;
+    right      : 0;
+    top        : 0;
 }
 
 .header-wp[b-2wa88qn2hf] {
