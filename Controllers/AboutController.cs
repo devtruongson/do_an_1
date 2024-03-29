@@ -13,13 +13,14 @@ public class AboutController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index(int id)
+    public IActionResult Index()
     {
         return View();
     }
 
     public IActionResult Info()
     {
+        Console.WriteLine("Check: " + Request.Query["id"].ToString());
         return View();
     }
 
