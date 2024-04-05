@@ -23,6 +23,23 @@ public class AboutController : Controller
         return View();
     }
 
+    public IActionResult PriceList()
+    {
+        return View();
+    }
+
+    public IActionResult Introduce()
+    {
+        return View();
+    }
+
+    public IActionResult PolicyBooking()
+    {
+        return View();
+    }
+
+
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
