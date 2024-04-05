@@ -1,34 +1,111 @@
+/* _content/webASP/Views/Home/Index.cshtml.rz.scp.css */
+.destination-fl-ad[b-paq7t9cvfh] {
+    padding: 30px 0;
+}
+
+.destination-fl-ad-heading[b-paq7t9cvfh] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 60px;
+        object-fit: cover;
+        opacity: 0.05;
+        position: absolute;
+        z-index: -1;
+        border-bottom: 4px solid #ffc107;
+    }
+
+    h2[b-paq7t9cvfh] {
+        font-size: 22px;
+        font-weight: 700;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            height: 4px;
+            width: 60px;
+            background-color: #ffc107;
+            left: 63px;
+            bottom: -28px;
+
+        }
+    }
+}
+
+.destination-fl-ad-body[b-paq7t9cvfh] {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+
+    a {
+        position: relative;
+        width: 23%;
+        height: 185px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1px;
+            filter: brightness(70%);
+        }
+
+        h3[b-paq7t9cvfh] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            z-index: 10;
+        }
+    }
+
+
+}
 /* _content/webASP/Views/Shared/Components/header/Header.cshtml.rz.scp.css */
 header[b-2wa88qn2hf] {
-    padding   : 10px 0;
-    position  : fixed;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
     background: #fff;
-    width     : 100%;
-    left      : 0;
-    right     : 0;
-    top       : 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999999999;
 }
 
 .header-wp[b-2wa88qn2hf] {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    align-items    : center;
+    align-items: center;
 }
 
 .right-header ul[b-2wa88qn2hf] {
-    padding   : 0;
-    margin    : 0;
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 .right-header ul[b-2wa88qn2hf] {
-    gap    : 30px;
+    gap: 30px;
     display: flex;
 }
 
 .right-header ul li[b-2wa88qn2hf] {
     font-weight: 700;
-    color      : rgba(50, 47, 49, .85);
+    color: rgba(50, 47, 49, .85);
 }
 /* _content/webASP/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
